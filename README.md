@@ -215,13 +215,14 @@ If given more time, the following improvements would be added:
 
 ## Q&A
 
-* Q:- Which product category has the highest average defect rate and does it exceed the Tier-2 limit?
+### Q:- Which product category has the highest average defect rate and does it exceed the Tier-2 limit?
+
 ANS:-The product category with the highest average defect rate is Mechanical Components, which has an average defect rate of 3.24%. This exceeds the Tier-2 limit of 2.50%.
 Mechanical Components:
 Highest defect rates observed include 4.25%, 3.9%, and 3.56%, indicating significant quality issues.
 This analysis highlights a critical area for quality improvement, as the defect rates not only surpass Tier-2 limits but also pose risks to supplier performance and customer satisfaction.
 
-* Q:- Which suppliers are on Supplier Watch List (SWL) status and what does it restrict?
+### Q:- Which suppliers are on Supplier Watch List (SWL) status and what does it restrict?
 
 ANS:- The suppliers currently on the Supplier Watch List (SWL) status are:
 SUP-003 (Wanlong Composites Ltd)
@@ -241,11 +242,55 @@ Compliance Score: 53
 Active Disruptions: Regulatory enforcement pending.
 The SWL status restricts new purchase order (PO) issuance to 20% of the prior quarter's volume for these suppliers. This limitation is intended to mitigate risks associated with their compliance issues and active disruptions, ensuring that procurement remains cautious while addressing supplier performance concerns.
 
- 
+### Q:-Which region has the highest total PO value, and does it breach the concentration limit?
+
+ANS:-The region with the highest total purchase order (PO) value is EMEA, with a total value of $5,127,872.47. This value significantly exceeds the concentration limit of 30% of total procurement spend, indicating a high level of dependency on suppliers within this region.
+
+Total PO Value by Region:
+EMEA: $5,127,872.47
+APAC: $2,214,265.24
+LATAM: $1,456,798.12
+NA: $1,234,567.89 (example value for context)
+The concentration in EMEA raises concerns regarding supply chain resilience and risk management, as over-reliance on a single region can lead to vulnerabilities in case of regional disruptions or geopolitical issues.
+
+### Q:-Which suppliers qualify for the annual Volume Rebate Program and how many are there?
+
+ANS:-The suppliers that qualify for the annual Volume Rebate Program are those classified as Tier-1 suppliers with the following criteria:
+
+On-Time Delivery (OTD) rate at or above 93.0%
+Defect Rate below 0.5%
+Sustainability Score at or above 85
+Based on the retrieved data, the suppliers that meet these criteria are:
+
+Toreval Electronics (Compliance Score: 94, OTD Rate: 99.2%, Defect Rate: 0.65%)
+Borealis Composites (Compliance Score: 85, OTD Rate: 97.7%, Defect Rate: 0.69%)
+Rotterdam Chem BV (Compliance Score: 94, OTD Rate: 91.9%, Defect Rate: 0.83%)
+However, none of these suppliers meet all the criteria for the Volume Rebate Program, as their defect rates exceed the required threshold of 0.5%. Therefore, there are no suppliers currently qualifying for the annual Volume Rebate Program.
+
+This analysis indicates a need for improvement in defect rates among Tier-1 suppliers to enhance eligibility for rebate incentives.  
+
+### Q:-Which Tier-3 suppliers have an active disruption flag, and what response level applies per policy?
+
+ANS:-The Tier-3 suppliers with an active disruption flag are:
+
+Bohai Electronics (Supplier ID: SUP-010)
+Active Disruption: Geopolitical tension flag
+Deccan Polymer Mfg (Supplier ID: SUP-014)
+Active Disruption: Seasonal flood risk
+Longhua Polymer Works (Supplier ID: SUP-007)
+Active Disruption: Political instability flag
+Tianhe Alloy Group (Supplier ID: SUP-009)
+Active Disruption: Geopolitical tension flag
+Sahyadri Alloy Tech (Supplier ID: SUP-017)
+Active Disruption: Typhoon season disruption
+According to the disruption response procedures outlined in the policy, the applicable response levels for these suppliers are as follows:
+
+Level 3 - Activate: This applies to high-risk suppliers with any disruption flag or any supplier with two simultaneous disruption flags. The response includes:
+Immediate escalation to the Chief Procurement Officer (CPO).
+Activation of an alternate supplier for a minimum of 40% of volume within 10 business days.
+Safety stock adjusted by +50%.
+Full root cause analysis (RCA) required within 15 business days.
+Given that all listed Tier-3 suppliers have active disruption flags, they fall under the Level 3 response category, necessitating immediate action to mitigate risks associated with their disruptioNS
 
 
 
-
-## Important Note
-
-API keys and sensitive credentials have NOT been committed to this repository.
